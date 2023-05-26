@@ -1,0 +1,145 @@
+body {
+  display: grid;
+  place-items: center;
+}
+/* Desktop container utility class */
+.desktop-container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* Media queries */
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+  .desktop-container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+  .desktop-container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .desktop-container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+  .desktop-container {
+    max-width: 1024px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+  .desktop-container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+  .desktop-container {
+    max-width: 1536px;
+  }
+}
+
+/* Reset container width for smaller screens */
+.container, .desktop-container {
+  width: 100%;
+}
+
+/* Apply desktop container style for 2xl breakpoint */
+@media (min-width: 1536px) {
+  .container {
+    display: none;
+  }
+  .desktop-container {
+    display: block;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin-left: 5px;
+  padding: 3px;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  font-weight:450;
+}
+.form-input{
+  display: flex;
+  height: 50px;
+  width: 400px;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.form-input:hover{
+    width: 110%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 15px 15px rgba(255, 123, 0, 0.15);
+}
+.button {
+   height: 45px;
+   margin: 30px 90px;
+   height: 50px;
+   width: 50%;
+   border-radius: 10px;
+   border-color: black;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #EFECEC, #F9ABA4);
+ }
+.button:hover{
+  background: linear-gradient(-135deg, #EFECEC, #F9ABA4);
+  }
+h1{
+    font-size: 30px;
+    color: #080808;
+    font-weight:500;
+    display:flex;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+h3{
+    font-size: 25px;
+    text-decoration: underline;
+  }
+
